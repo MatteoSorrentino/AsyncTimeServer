@@ -48,6 +48,7 @@ namespace Sorrentino_SocketAsyncLib
             // Avvio del server
             mServer.Start();
             keep = true;
+
             while (keep)
             {
                 // Mi metto in ascolto di connessioni in entrata

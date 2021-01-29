@@ -29,7 +29,6 @@ namespace Sorrentino_AsyncTimeServer
             InitializeComponent();
             mServer = new AsyncSocketServer();
         }
-
         private void btn_Ascolta_Click(object sender, RoutedEventArgs e)
         {
             mServer.StartListening();
